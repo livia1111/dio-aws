@@ -8,7 +8,7 @@ Este guia fornece uma introdução prática ao gerenciamento de instâncias **Am
 O **Amazon EC2** é um serviço que permite criar e gerenciar máquinas virtuais na nuvem da AWS.  
 Ele oferece escalabilidade, flexibilidade e controle sobre recursos computacionais.
 
-![Logo EC2](images/aws-ec2-logo.png)
+##![Logo EC2](images/aws-ec2-logo.png)
 
 ---
 
@@ -19,7 +19,6 @@ Ele oferece escalabilidade, flexibilidade e controle sobre recursos computaciona
 - **Security Groups**: regras de firewall que controlam tráfego de entrada e saída.
 - **Key Pair**: par de chaves usado para acessar a instância via SSH.
 
-![Tipos de instância](images/ec2-instance-types.png)
 
 ---
 
@@ -30,7 +29,6 @@ Ele oferece escalabilidade, flexibilidade e controle sobre recursos computaciona
    - Selecione o tipo de instância (ex.: `t2.micro` para testes gratuitos).
    - Configure storage, security groups e key pair.
 
-   ![Launch Instance](images/ec2-launch-instance.png)
 
 2. **Conectar à instância**
    - Via SSH:
@@ -39,20 +37,17 @@ Ele oferece escalabilidade, flexibilidade e controle sobre recursos computaciona
      ```
    - Ou via AWS Systems Manager (sem necessidade de chave).
 
-   ![Conexão SSH](images/ec2-ssh-connect.png)
 
 3. **Monitorar**
    - Use o **CloudWatch** para métricas (CPU, rede, disco).
    - Configure alarmes para eventos críticos.
 
-   ![CloudWatch Monitoramento](images/cloudwatch-monitoring.png)
 
 4. **Gerenciar ciclo de vida**
    - **Start**: iniciar a instância.
    - **Stop**: desligar sem perder dados do disco.
    - **Terminate**: excluir a instância e seus dados.
 
-   ![Ciclo de vida EC2](images/ec2-lifecycle.png)
 
 ---
 
@@ -63,7 +58,6 @@ Ele oferece escalabilidade, flexibilidade e controle sobre recursos computaciona
 - **Snapshots**: faça backups do volume EBS para restaurar facilmente.
 - **Tags**: use tags para organizar e identificar instâncias em ambientes grandes.
 
-![Auto Scaling](images/ec2-auto-scaling.png)
 
 ---
 
@@ -77,5 +71,9 @@ Ele oferece escalabilidade, flexibilidade e controle sobre recursos computaciona
 ## ✅ Conclusão
 Gerenciar instâncias EC2 é o primeiro passo para dominar a AWS.  
 Com práticas simples como **monitoramento, automação e uso consciente de recursos**, você garante eficiência e economia na nuvem.
+
+
+##![Exemplo](images/exemplo.png)
+
 
 ![AWS Cloud](images/aws-cloud.png)
