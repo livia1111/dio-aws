@@ -73,7 +73,7 @@ Gerenciar instâncias EC2 é o primeiro passo para dominar a AWS.
 Com práticas simples como **monitoramento, automação e uso consciente de recursos**, você garante eficiência e economia na nuvem.
 
 
-##![Exemplo](images/exemplo.png)
+![Exemplo](images/exemplo.png)
 
 
 ![AWS Cloud](images/aws-cloud.png)
